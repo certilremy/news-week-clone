@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow: hidden;
+  background: white;
+}
+
+.main-header {
+  color: white;
+  fill: white;
+  height: 95px;
+  padding: 20px 10px 15px 10px;
+  align-items: flex-end;
+}
+
+.main-header a {
+  text-emphasis: none;
+  color: white;
+  padding: 4px 10px;
+}
+
+.main-header a:first-child {
+  padding: 0 12px;
+}
+
+.main-header .sign-in {
+  min-width: 82px;
+}
+
+.action .subscribe {
+  min-width: 192px;
+  color: red;
+}
+
+.action {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+}

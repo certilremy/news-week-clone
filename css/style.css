@@ -9,22 +9,40 @@ body {
   background: white;
 }
 
+.wrapper {
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  background-color: white;
+  padding: 0;
+}
+
 .main-header {
   color: white;
   fill: white;
+  font-size: 16px;
   height: 95px;
   padding: 20px 10px 15px 10px;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
   align-items: flex-end;
+  justify-content: space-between;
+  background-color: red;
+}
+
+svg {
+  max-height: 100px;
+}
+
+nav li a {
+  color: black;
 }
 
 .main-header a {
-  text-emphasis: none;
   color: white;
   padding: 4px 10px;
-}
-
-.main-header a:first-child {
-  padding: 0 12px;
 }
 
 .main-header .sign-in {
@@ -32,7 +50,7 @@ body {
 }
 
 .action .subscribe {
-  min-width: 192px;
+  min-width: 190px;
   color: red;
 }
 
@@ -40,4 +58,62 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: baseline;
+}
+
+nav {
+  font-size: 21px;
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid rgb(109, 106, 106);
+}
+
+.main-header a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.main-header a:first-child {
+  padding: 0 12px;
+}
+
+nav form {
+  right: 4vw;
+  top: 10%;
+}
+
+nav form input {
+  height: 54px;
+  width: 79px;
+  border: none;
+}
+
+nav::before {
+  position: absolute;
+  width: 66px;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+
+nav ul {
+  padding: 15px 160px 15px 0;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+nav li {
+  text-align: center;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  border-left: 1px solid #d9d9d9;
+}
+
+nav li:first-child {
+  border: none;
 }

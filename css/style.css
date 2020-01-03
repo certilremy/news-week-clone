@@ -40,6 +40,11 @@ nav li a {
   color: black;
 }
 
+article h3 a {
+  color: black;
+  font-style: bold;
+}
+
 .main-header a {
   color: white;
   padding: 4px 10px;
@@ -116,4 +121,60 @@ nav li {
 
 nav li:first-child {
   border: none;
+}
+
+.featured-stories {
+  background-color: white;
+}
+
+.main-section {
+  padding: 20px 30px 0;
+  line-height: 24px;
+}
+
+.main-section h2 {
+  color: rgba(3, 3, 3, 0.4);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.main-section p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.main-section img {
+  width: 100%;
+}
+
+.middleSticky {
+  background: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -500px;
+}
+
+.featured figure {
+  margin-bottom: 10px;
+}
+
+.featured h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+}
+
+.featured img {
+  width: 100%;
+}
+
+figcaption {
+  bottom: 0;
+  left: 0;
+  background: #e7e8e8;
+  font: bold;
+  color: #f72210;
+  padding: 8px 15px 9px;
 }

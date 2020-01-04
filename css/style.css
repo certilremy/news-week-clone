@@ -215,3 +215,65 @@ figcaption {
   font-size: 17px;
   line-height: 20px;
 }
+
+.opinion {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.opinion a:hover {
+  color: #f72210;
+}
+
+.rightSide h3 {
+  font-size: 17px;
+}
+
+.rightSide span {
+  color: #5a5959;
+}
+
+.opinion article {
+  border-bottom: 1px solid #ddd;
+}
+
+.opinion article:last-of-type {
+  border-bottom: none;
+}
+
+.latest-news {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.latest-news article h3 {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.latest-news article:last-of-type {
+  border-bottom: none;
+}
+
+.news-letter {
+  min-width: 260px;
+  background: #e5e5e5;
+  font: bold 19px/19px "Roboto Condensed", sans-serif;
+}
+
+.news-letter .sign-up {
+  background: #666;
+}
+
+.news-letter span:last-of-type a {
+  color: #333;
+}
+
+.news-icon {
+  position: relative;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  width: 28px;
+  height: 28px;
+}

@@ -5,7 +5,7 @@
 }
 
 body {
-  overflow: hidden;
+  overflow: scroll;
   background: white;
 }
 
@@ -127,6 +127,10 @@ nav li:first-child {
   background-color: white;
 }
 
+.featured-stories a:hover {
+  color: #f72210;
+}
+
 .main-section {
   padding: 20px 30px 0;
   line-height: 24px;
@@ -147,13 +151,6 @@ nav li:first-child {
 
 .main-section img {
   width: 100%;
-}
-
-.middleSticky {
-  background: white;
-  position: -webkit-sticky;
-  position: sticky;
-  top: -500px;
 }
 
 .featured figure {
@@ -177,4 +174,44 @@ figcaption {
   font: bold;
   color: #f72210;
   padding: 8px 15px 9px;
+}
+
+.land-midle h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.culture-travel {
+  background-color: #f1f1f8;
+}
+
+.top-story a:hover {
+  color: #f72210;
+}
+
+.culture-travel a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.more-stories a:hover {
+  color: #f72210;
+}
+
+.culture-travel p {
+  color: #8e8f90;
+}
+
+.culture-travel .tag {
+  background: #c2d4d7;
+  padding: 6px;
+}
+
+.more-stories article {
+  border-top: 1px solid #ddd;
+}
+
+.more-stories h3 {
+  font-size: 17px;
+  line-height: 20px;
 }

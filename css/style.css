@@ -341,14 +341,9 @@ figcaption {
   background-position: 50%;
 }
 
-.big-title-1 {
-  font-size: 19px;
-  font-weight: 700;
-  text-decoration: none solid rgb(51, 51, 51);
-  margin-left: 10px;
-}
-
-.big-title-2 {
+.big-title-1,
+.big-title-2,
+.big-title-3 {
   font-size: 19px;
   font-weight: 700;
   text-decoration: none solid rgb(51, 51, 51);
@@ -398,4 +393,19 @@ figcaption {
 .editor-pick article h3 a:hover {
   text-decoration: underline;
   color: #f72210;
+}
+
+.featured-slide-show article h3 {
+  font-size: 23px;
+  line-height: 22px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.featured-slide-show figcaption {
+  line-height: 44px;
+  text-align: center;
+  width: 70px;
+  height: 52px;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0 / contain no-repeat;
 }

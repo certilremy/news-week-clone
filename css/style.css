@@ -413,7 +413,10 @@ figcaption {
 
 .locale-state article h3,
 .international article h3,
-.business article h3 {
+.business article h3,
+.tech-and-science article h3,
+.culture article h3,
+.sports article h3 {
   font-size: 22px;
   font-weight: 700;
   text-decoration: none solid rgb(51, 51, 51);
@@ -422,13 +425,19 @@ figcaption {
 
 .locale-state article h3 a:hover,
 .international article h3 a:hover,
-.business article h3 a:hover {
+.business article h3 a:hover,
+.tech-and-science article h3 a:hover,
+.culture article h3 a:hover,
+.sports article h3 a:hover {
   color: #f73210;
 }
 
 .locale-state h2,
 .international h2,
-.business h2 {
+.business h2,
+.tech-and-science h2,
+.culture h2,
+.sports h2 {
   border-top: 1px solid #d9d9d9;
   font-size: 22px;
   line-height: 22px;

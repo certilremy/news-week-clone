@@ -386,7 +386,8 @@ figcaption {
   color: #333;
 }
 
-.middle-articles article h3 a:hover {
+.middle-articles article h3 a:hover,
+.featured-slide-show article h3 a:hover {
   color: #f73210;
 }
 
@@ -408,4 +409,28 @@ figcaption {
   width: 70px;
   height: 52px;
   background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0 / contain no-repeat;
+}
+
+.locale-state article h3,
+.international article h3,
+.business article h3 {
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: none solid rgb(51, 51, 51);
+  line-height: 25px;
+}
+
+.locale-state article h3 a:hover,
+.international article h3 a:hover,
+.business article h3 a:hover {
+  color: #f73210;
+}
+
+.locale-state h2,
+.international h2,
+.business h2 {
+  border-top: 1px solid #d9d9d9;
+  font-size: 22px;
+  line-height: 22px;
+  text-decoration: none solid rgb(51, 51, 51);
 }

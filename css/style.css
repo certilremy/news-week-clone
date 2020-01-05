@@ -248,6 +248,16 @@ figcaption {
   line-height: 21px;
 }
 
+.middle-articles h3 {
+  font-size: 16px;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.sponsored-article h3 {
+  margin-left: 10px;
+}
+
 .latest-news article h3 {
   font-size: 17px;
   font-weight: 700;
@@ -267,6 +277,10 @@ figcaption {
   background: #666;
 }
 
+.mag a:hover {
+  text-decoration: none;
+}
+
 .news-letter span:last-of-type a {
   color: #333;
 }
@@ -276,4 +290,90 @@ figcaption {
   background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
   width: 28px;
   height: 28px;
+}
+
+.sponsored-article {
+  border: 1px solid #e6e6e6;
+  margin-bottom: 30px;
+}
+
+.sponsored-article p {
+  margin-left: 10px;
+}
+
+.sponsored-article figcaption {
+  bottom: 0;
+  left: 0;
+  background: #e7e8e8;
+  font: bold;
+  color: #3581f4;
+  padding: 8px 15px 9px;
+}
+
+.midle-title {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.last-shown {
+  overflow-x: hidden;
+}
+
+.middle-articles .mag img {
+  -webkit-transform: translate(0);
+  transform: translate(0);
+}
+
+.more-articles article .back-images,
+.after-magazine article .back-images {
+  width: 100%;
+  padding-bottom: 100%;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.big-title-1 {
+  font-size: 19px;
+  font-weight: 700;
+  text-decoration: none solid rgb(51, 51, 51);
+  margin-left: 10px;
+}
+
+.icon-n-title {
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat;
+  background-color: #f73210;
+  width: 28px;
+  height: 28px;
+  margin-left: 10px;
+}
+
+.b-img-1 {
+  background-image: url(https://d.newsweek.com/en/full/1555301/fe-queen-02-1175861265.webp?w=466&h=311&l=52&t=20&q=90&f=b465ad88a227817f5e10c6870b784301);
+}
+
+.b-img-2 {
+  background-image: url(https://d.newsweek.com/en/full/1554036/donald-trump.webp?w=466&h=311&q=90&f=0adb959e0da2c23f6ffe3779dea3b59d);
+}
+
+.b-img-3 {
+  background-image: url(https://d.newsweek.com/en/full/1555283/per-durham-01-banner.webp?w=466&h=311&l=51&t=38&q=90&f=d0c02907def67ab44db9659b57a0d877);
+}
+
+.b-img-4 {
+  background-image: url(https://d.newsweek.com/en/full/1555244/per-mathqanda-banner.webp?w=466&h=311&q=90&f=299d38584520b38dbb048bcb17b850e4);
+}
+
+.b-img-5 {
+  background-image: url(https://d.newsweek.com/en/full/1555857/cul-map-wellness-morocco.webp?w=466&h=311&q=90&f=fbdb51d8b5a230ed9cfdee635fe19372);
+}
+
+.b-img-6 {
+  background-image: url(https://d.newsweek.com/en/full/1554653/cul-ps-erivo-banner.webp?w=466&h=311&l=48&t=38&q=90&f=4d2f648271497646b6f7dc7999df4b46);
+}
+
+.middle-articles article .see-all {
+  color: #333;
+}
+
+.middle-articles article h3 a:hover {
+  color: #f73210;
 }

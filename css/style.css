@@ -328,6 +328,17 @@ figcaption {
   overflow-x: hidden;
 }
 
+.mail-liste-action-2 img {
+  height: 100%;
+  width: auto;
+  transform: translate(-25%);
+}
+
+.portrait figure img {
+  height: 100%;
+  width: auto;
+}
+
 .middle-articles .mag img {
   -webkit-transform: translate(0);
   transform: translate(0);
@@ -416,7 +427,8 @@ figcaption {
 .business article h3,
 .tech-and-science article h3,
 .culture article h3,
-.sports article h3 {
+.sports article h3,
+.mail-liste-action-1 h2 {
   font-size: 22px;
   font-weight: 700;
   text-decoration: none solid rgb(51, 51, 51);
@@ -442,4 +454,34 @@ figcaption {
   font-size: 22px;
   line-height: 22px;
   text-decoration: none solid rgb(51, 51, 51);
+}
+
+.engage {
+  background: #f4f5f6;
+}
+
+.subscribe-button {
+  min-width: 118px;
+}
+
+.portrait {
+  height: 200px;
+}
+
+.engage .second-mag {
+  transform: translate(37px, 24px);
+}
+
+.mail-liste-action-2 figure {
+  overflow: hidden;
+}
+
+.mail-liste-action-2-footer {
+  border: 1px solid #f4f5f6;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.portrait figure {
+  height: auto;
 }

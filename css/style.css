@@ -72,6 +72,10 @@ nav {
   border-bottom: 1px solid rgb(109, 106, 106);
 }
 
+.editor-pick article h3 a {
+  color: black;
+}
+
 .main-header a:hover {
   text-decoration: none;
   color: black;
@@ -258,6 +262,12 @@ figcaption {
   margin-left: 10px;
 }
 
+.editor-pick h3 {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
 .latest-news article h3 {
   font-size: 17px;
   font-weight: 700;
@@ -338,6 +348,13 @@ figcaption {
   margin-left: 10px;
 }
 
+.big-title-2 {
+  font-size: 19px;
+  font-weight: 700;
+  text-decoration: none solid rgb(51, 51, 51);
+  margin-left: 10px;
+}
+
 .icon-n-title {
   background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat;
   background-color: #f73210;
@@ -376,4 +393,9 @@ figcaption {
 
 .middle-articles article h3 a:hover {
   color: #f73210;
+}
+
+.editor-pick article h3 a:hover {
+  text-decoration: underline;
+  color: #f72210;
 }

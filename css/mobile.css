@@ -28,7 +28,6 @@
   .international .triple-row h3 {
     font-size: 17px;
     font-weight: 500;
-    color: brown;
     line-height: 20px;
   }
 }
@@ -42,12 +41,21 @@
   .international .triple-row h3 {
     font-size: 30px;
     font-weight: 700;
-    color: brown;
     line-height: 30px;
   }
 }
 
 @media only screen and (max-width: 360px) {
+  .mail-liste-action-2 figure {
+    overflow: none;
+  }
+
+  .mail-liste-action-1 h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+
   .sports article h3,
   .business article h3,
   .culture .triple-row h3,
@@ -56,7 +64,6 @@
   .international .triple-row h3 {
     font-size: 15px;
     font-weight: 700;
-    color: brown;
     line-height: 15px;
   }
 }

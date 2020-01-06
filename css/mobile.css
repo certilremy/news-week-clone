@@ -1,0 +1,62 @@
+@media only screen and (max-width: 993px) {
+  .main-header {
+    padding: 0;
+    height: 50px;
+    align-items: center;
+  }
+
+  .main-header svg {
+    height: 14px;
+  }
+
+  .action .subscribe {
+    min-width: 100px;
+    margin-right: 5px;
+  }
+
+  .main-header .sign-in {
+    min-width: 40px;
+  }
+}
+
+@media only screen and (max-width: 972px) {
+  .sports article h3,
+  .business article h3,
+  .culture .triple-row h3,
+  .tech-and-science .triple-row h3,
+  .locale-state .triple-row h3,
+  .international .triple-row h3 {
+    font-size: 17px;
+    font-weight: 500;
+    color: brown;
+    line-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 715px) {
+  .sports article h3,
+  .business article h3,
+  .culture .triple-row h3,
+  .tech-and-science .triple-row h3,
+  .locale-state .triple-row h3,
+  .international .triple-row h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: brown;
+    line-height: 30px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .sports article h3,
+  .business article h3,
+  .culture .triple-row h3,
+  .tech-and-science .triple-row h3,
+  .locale-state .triple-row h3,
+  .international .triple-row h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: brown;
+    line-height: 15px;
+  }
+}
